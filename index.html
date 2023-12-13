@@ -321,9 +321,73 @@
                 <br>
                 <br>
                 <p class="rub-ramka" style><b>ΠΡΟΣΟΧΗ!</b> Πρόσφατες μελέτες επιβεβαίωσαν ότι η πιο ευνοϊκή περίοδος για να ξεκινήσετε τη χρήση του προϊόντος Flexio είναι ο
-                <span id="month_1"></span> <!--και ο <span id="month_2"></span>-->! <br/>Οι αλλαγές στη θερμοκρασία συμβάλλουν στην επιτάχυνση του μεταβολισμού και στην ταχύτερη αποκατάσταση των αρθρώσεων.</p>
+                <span id="month_1"></span><!--και ο <span id="month_2"></span>-->! <br/>Οι αλλαγές στη θερμοκρασία συμβάλλουν στην επιτάχυνση του μεταβολισμού και στην ταχύτερη αποκατάσταση των αρθρώσεων.</p>
                 <br>
-                <p style="font-size: 27px;text-align:center;font-weight: bold;">ΕΦΤΑΣΕ Η ΣΤΙΓΜΗ ΓΙΑ ΤΙΣ ΧΡΙΣΤΟΥΓΕΝΝΙΑΤΙΚΕΣ ΕΚΠΤΩΣΕΙΣ ΚΑΙ ΔΩΡΑ!</p>
+                <style>
+                  .new-year-accent {
+                    position: relative;
+                    height: 220px;
+  
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  }
+                  p.new-year-text {
+                    font-size: 27px!important;
+                    line-height: 32px!important;
+                    text-align: right;
+                    font-weight: bold;
+                    position: relative;
+                    z-index: 1;
+                    font-family: Arial!important;
+                    color: #ffffff;
+                    max-width: 55%;
+                    padding-right: 64px;
+                    padding-top: 24px;
+                  }
+                  img.new-year-bg {
+                    width: 100%;
+                    max-width: 100%;
+                    height: 220px;
+                    margin: 0;
+  
+                    position: absolute;
+                    object-fit: contain;
+                    
+                  }
+                  
+                  @media (max-width: 1180px) {
+                    p.new-year-text {
+                      font-size: 21px!important;
+                    }
+                  }
+
+                  @media (max-width: 960px) {
+                    p.new-year-text {
+                      font-size: 19px!important;
+                    }
+                  }
+
+                  @media (max-width: 475px) {
+                    p.new-year-text {
+                      font-size: 14px!important;
+                      padding-right: 36px;
+                      line-height: 18px!important;
+                    }
+                  }
+
+                  @media (max-width: 375px) {
+                    p.new-year-text {
+                      font-size: 13px!important;
+                      padding-right: 36px;
+                      line-height: 18px!important;
+                    }
+                  }
+                </style>
+                <div class="new-year-accent">
+                  <img src="images/new-year-3.png" alt="" class="new-year-bg">
+                  <p  class="new-year-text">ΕΦΤΑΣΕ Η ΣΤΙΓΜΗ ΓΙΑ ΤΙΣ ΧΡΙΣΤΟΥΓΕΝΝΙΑΤΙΚΕΣ ΕΚΠΤΩΣΕΙΣ ΚΑΙ ΔΩΡΑ!</p>
+                </div>
                 
                 <script type="text/javascript">
                   d = new Date();
@@ -399,7 +463,7 @@
                 <center id="order_form" style="margin-bottom: 50px; padding-top: 25px ">
                   <div class="order_block" style="display:block">
                     <div class="image-block">
-                      <img src="images/new-year-1.png" alt="" class="form-new-year-1">
+                      <!--<img src="images/new-year-1.png" alt="" class="form-new-year-1">-->
                       <img style="width: 100%;
                                                     max-width: 170px;
                                                     margin: 16px auto;
